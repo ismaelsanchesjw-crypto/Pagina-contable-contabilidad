@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/pagina-contable-contabilidad/', // <-- Añadido para que GitHub Pages cargue tus recursos
+    base: '/Pagina-contable-contabilidad/', // <-- Añadido para que GitHub Pages cargue tus recursos con la capitalización correcta
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

@@ -7,6 +7,10 @@ export default defineConfig(() => {
   return {
     base: '/Pagina-contable-contabilidad/', // <-- Añadido para que GitHub Pages cargue tus recursos con la capitalización correcta
     plugins: [react(), tailwindcss()],
+    build: {
+      outDir: 'docs',
+      emptyOutDir: true,
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),

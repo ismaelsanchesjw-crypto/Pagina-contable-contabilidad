@@ -4,6 +4,9 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
+  export defaul defineConfig({
+    base: ´/Pagina_contable-contabilidad/´
+      )}
   return {
     base: './', 
     plugins: [react(), tailwindcss()],

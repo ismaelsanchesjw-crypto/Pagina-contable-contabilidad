@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/Pagina-contable-contabilidad./', 
+    base: '/Pagina-contable-contabilidad/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

@@ -1,0 +1,6 @@
+{
+  "name": "Sistema Contable de Partida Doble",
+  "description": "Aplicación interactiva de contabilidad de partida doble con pólizas, esquemas de mayor, estado de resultados, balance general y exportación a PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
